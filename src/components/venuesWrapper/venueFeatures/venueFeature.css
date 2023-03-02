@@ -1,0 +1,32 @@
+.clear-all-button {
+    color: rgb(226, 38, 38);
+    cursor: pointer;
+    font-size: large;
+    border: none;
+    padding-top: 0px;
+}
+.clear-all-button:hover {
+    color: rgb(153, 17, 17);
+}
+.feature {
+    color: black;
+    font-size: large;
+}
+.feature-icon {
+    color: rgb(54, 134, 159);
+    font-size: 25px;
+    position: absolute;
+    right: 20px;
+    top: 3px;
+}
+.feature-box {
+    box-shadow: 1px 1px 4px rgb(173, 170, 170);
+    cursor: pointer;
+}
+.distance-input {
+    width: 100%;
+}
+.max-distance {
+    position: absolute;
+    right: 5px;
+}

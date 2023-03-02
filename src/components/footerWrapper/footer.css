@@ -1,0 +1,11 @@
+.footer {
+    background-color: rgb(35, 53, 68);
+}
+.footer-heading {
+    font-size: 25px;
+    font-weight: 300;
+}
+.footer-content {
+    font-weight: 400;
+    cursor: pointer;
+}

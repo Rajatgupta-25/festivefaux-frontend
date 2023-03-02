@@ -1,0 +1,115 @@
+.headingNavigate {
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.home-heading {
+    background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+}
+.nav-navigation {
+    border: 1px solid grey;
+}
+.input {
+    color: grey;
+    background-color: #d5d4d4;
+}
+.input:focus {
+    color: grey;
+    background-color: #d5d4d4;
+    outline: none;
+}
+.search-button {
+    padding: 0;
+}
+.icon {
+    height: 2.4rem;
+    background-color: #8b6dcc;
+    border: 1px solid #8b6dcc;
+}
+.icon:hover {
+    background-color: #53407d;
+    border: 1px solid #53407d;
+}
+.search-container {
+    margin-bottom: 50px;
+    margin-top: 25px;
+    padding: 50px;
+    background-image: linear-gradient(to right, #c993ac 0%, #8a87d3 100%);
+    box-shadow: 2px 2px 8px grey;
+    border-radius: 5px;
+}
+.home-box {
+    margin: 40px;
+    text-align: center;
+    height: 180px;
+    box-shadow: 2px 2px 8px grey;
+    cursor: pointer;
+}
+.home-box:hover{
+    animation: flip 1s linear;
+}
+@keyframes flip {
+    50% {
+        transform: rotateY(180deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+.home-box span{
+    margin-top: 40px;
+    font-size: 40px;
+}
+.home-box p{
+    font-size: 30px;
+    font-weight: 300;
+}
+.home-box-venues {
+    background-color: #ec77ab;
+    border: 1px solid #ec77ab;
+}
+.home-box-invitation-card {
+    background-color: #b959c0;
+    border: 1px solid #b959c0;
+}
+.home-box-entertainment {
+    background-color: #a46fc9;
+    border: 1px solid #a46fc9;
+}
+.home-box-catering {
+    background-color: #7a6ebd;
+    border: 1px solid #7a6ebd;
+}
+.home-box-gifts {
+    background-color: #7873f5;
+    border: 1px solid #7873f5;
+}
+.successfull-box {
+    margin: 40px;
+    cursor: pointer;
+    text-align: center;
+    height: 80px;
+    padding-top: 15px;
+    border-radius: 5px;
+}
+.successfull-box-party {
+    background-color: #7873f5;
+    border: 1px solid #7873f5;
+}
+.successfull-box-birthdays {
+    background-color: #a46fc9;
+    border: 1px solid #a46fc9;
+}
+.successfull-box-partners {
+    background-color: #b959c0;
+    border: 1px solid #b959c0;
+}
+.successfull-box-anniversary {
+    background-color: #ec77ab;
+    border: 1px solid #ec77ab;
+}
+.gallery-carousel {
+    box-shadow: 2px 2px 8px grey;
+    padding: 40px;
+}

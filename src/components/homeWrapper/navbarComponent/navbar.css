@@ -1,0 +1,67 @@
+.navbar {
+    background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+}
+.nav-link {
+    color: #53407d;
+}
+.nav-link:hover {
+    color: white;
+}
+.signinHandler {
+    border-radius: 10px;
+    background-color: #8b6dcc;
+    border: 1px solid #8b6dcc;
+}
+.signinHandler:hover {
+    background-color: #53407d;
+    border: 1px solid #53407d;
+}
+.signupHandler {
+    border-radius: 10px;
+    color: white;
+    background-color: #8b6dcc;
+    border: 1px solid #8b6dcc;
+}
+.signupHandler:hover {
+    background-color: #53407d;
+    border: 1px solid #53407d;
+}
+.close-button {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+}
+.modal-title {
+    color: #53407d;
+    font-weight: 600;
+    font-size: larger;
+}
+.username-dropbtn{
+    cursor: pointer;
+    color: #31244e;
+}
+.username-dropbtn:hover {
+    color: black;
+}
+.dropdownProfile {
+    position: absolute;
+    top: 4.5rem;
+    right: 1rem;
+    width: 160px;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: white;
+}
+.list-profile:hover{
+    cursor: pointer;
+}
+.dropdownProfile::before {
+    content: '';
+    position: absolute;
+    top: -0.5rem;
+    right: 4rem;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    transform: rotate(45deg);
+}

@@ -1,0 +1,35 @@
+.paginationButtons {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color:rgb(110, 106, 106);
+}
+
+.paginationButtons a{
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid rgb(110, 106, 106);
+    cursor: pointer;
+}
+
+.paginationButtons a:hover {
+    color: white;
+    background-color: rgb(54, 134, 159);
+}
+
+.paginationActive {
+    color: white;
+}
+
+.paginationActive a {
+    background-color: rgb(54, 134, 159);
+}
+
+.nextButton {
+    color: rgb(110, 106, 106);
+}
+
+.previousButton {
+    color:rgb(110, 106, 106);
+}

@@ -1,0 +1,37 @@
+.list-container {
+    padding: 0;
+    margin-top: 60px;
+}
+.additional-items {
+    color: rgb(111, 113, 111);
+    font-size: 12px;
+    cursor: pointer;
+}
+.add-to-cart {
+    color: rgb(111, 113, 111);
+    border: 1px solid rgb(111, 113, 111);
+    background-color: white;
+}
+.add-to-cart:hover {
+    color: white;
+    background-color: rgb(54, 134, 159);
+    border: 1px solid rgb(54, 134, 159);
+}
+.book-now{
+    color: white;
+    background-color: rgb(112, 175, 194);
+    border: 1px solid rgb(99, 173, 196);
+}
+.book-now:hover{
+    color: white;
+    background-color: rgb(54, 134, 159);
+    border: 1px solid rgb(54, 134, 159);
+}
+.list-item-detail {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.list-item-price {
+    color: rgb(197, 30, 30);
+}

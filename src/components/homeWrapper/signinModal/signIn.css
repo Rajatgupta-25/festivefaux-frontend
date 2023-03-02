@@ -1,0 +1,12 @@
+.create-account-option {
+    position: absolute;
+    right: 0;
+}
+.submit-btn {
+    width: 100%;
+    background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+    border: none;
+}
+.login-label {
+    color: #53407d;
+}

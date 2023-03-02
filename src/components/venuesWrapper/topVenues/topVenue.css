@@ -1,0 +1,16 @@
+.card-title{
+    font-size: 13px;
+}
+.card-item-rating {
+    font-size: 10px;
+    color: rgb(236, 189, 22);
+}
+.card-item-rating-value{
+    color: black;
+}
+.card-item-price {
+    color: rgb(233, 24, 24);
+}
+.card {
+    width: 20rem;
+}
